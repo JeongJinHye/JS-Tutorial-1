@@ -6,19 +6,22 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
     />
-    <title>Earthworm game</title>
+    <title>Infinite scroll</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <main>
-      <h1>earthworm game</h1>
-      <canvas width="300" height="300" class="canvas"></canvas>
-      <span class="score">0</span>
-      <span class="highscore">0</span>
-      <button type="button" class="js-play">PLAY</button>
-    </main>
+    <div class="wrap">
+      <h2>Infinite Scroll</h2>
+      <div class="posts"></div>
+      <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
